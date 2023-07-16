@@ -1,2 +1,25 @@
 # VK-chat-mini-observer
-VK chat mini-observer is a minimalist chat monitoring demo consisting of a Python server and a Chrome extension. The server, built with Flask, logs messages received from the extension via a '/store_response' POST request. The extension, using JavaScript, observes chat using MutationObserver
+
+VK chat mini-observer is a minimalist chat monitoring demo consisting of a Python server and a Chrome extension. The server, built with Flask, logs messages received from the extension via a '/store_response' POST request. The extension, using JavaScript, observes VK chat using MutationObserver, captures and sends new messages to the server using a Fetch API POST request.
+
+Specifications:
+1. Chat-Observer-Server:
+   - Flask-based Python server.
+   - Single '/store_response' route for logging messages.
+   - Utilizes the logging module for storage.
+   - Returns JSON success response.
+
+2. Chat-Observer-Extension:
+   - JavaScript-based Chrome extension.
+   - Uses Fetch API for server communication.
+   - Observes VK chat with MutationObserver.
+   - Sends captured messages to the server using POST request.
+
+Key Facts:
+- Both server and extension are concise, with 24 lines of code each.
+- Extension script is only 50 characters long.
+- Server uses Flask and logging modules.
+- Extension employs Fetch API for server communication.
+- VK chat observation relies on MutationObserver.
+
+The demo repository includes necessary files and Docker configurations for easy setup. This minimalistic demo lays the groundwork for advanced chat monitoring and analysis systems.
