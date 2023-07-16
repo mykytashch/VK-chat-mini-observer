@@ -23,3 +23,6 @@ Key Facts:
 - VK chat observation relies on MutationObserver.
 
 The demo repository includes necessary files and Docker configurations for easy setup. This minimalistic demo lays the groundwork for advanced chat monitoring and analysis systems.
+
+Author
+VK chat mini-observer is developed by Mykyta Shcheholevatyi
