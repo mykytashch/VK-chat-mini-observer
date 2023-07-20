@@ -1,5 +1,12 @@
 # VK-chat-mini-observer
 
+
+[![GitHub Follow](https://img.shields.io/github/followers/mykytashch?style=social)](https://github.com/mykytashch)
+[![GitHub Stars](https://img.shields.io/github/stars/mykytashch/SynchroMessage)](https://github.com/mykytashch/SynchroMessage/stargazers)
+[![GitHub Forks](https://img.shields.io/github/forks/mykytashch/SynchroMessage)](https://github.com/mykytashch/SynchroMessage/network)
+
+
+
 VK chat mini-observer is a minimalist chat monitoring demo consisting of a Python server and a Chrome extension. The server, built with Flask, logs messages received from the extension via a '/store_response' POST request. The extension, using JavaScript, observes VK chat using MutationObserver, captures and sends new messages to the server using a Fetch API POST request.
 
 Specifications:
