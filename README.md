@@ -24,7 +24,7 @@ Specifications:
 
 Key Facts:
 - Both server and extension are concise, with 24 lines of code each.
-- Extension script is only 50 characters long.
+- Extension script is only 50 lines long.
 - Server uses Flask and logging modules.
 - Extension employs Fetch API for server communication.
 - VK chat observation relies on MutationObserver.
